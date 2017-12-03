@@ -71,7 +71,7 @@ Install bundler
     sudo apt-get install software-properties-common 
     sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
     sudo apt-get update
-    sudo apt-get install mysql-server-5.6 redis-server libmysqlclient-dev
+    sudo apt-get install mysql-server-5.6 mysql-client-5.6 libmysqlclient-dev
 
 
 ### 4. Install Redis
