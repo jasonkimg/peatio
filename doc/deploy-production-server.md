@@ -116,6 +116,7 @@ Insert the following lines into the bitcoin.conf, and replce with your username 
 
     server=1
     daemon=1
+    prune=550
 
     # If run on the test network instead of the real bitcoin network
     testnet=1
