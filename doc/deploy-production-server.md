@@ -74,7 +74,7 @@ Install bundler
     sudo apt-get install mysql-server-5.6 mysql-client-5.6 libmysqlclient-dev
     
 Run on every restart:
-   sudo systemctl enable mysql
+    sudo systemctl enable mysql
    sudo /lib/systemd/systemd-sysv-install enable mysql
    
 Start mysql:
