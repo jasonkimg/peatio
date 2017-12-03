@@ -72,7 +72,13 @@ Install bundler
     sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
     sudo apt-get update
     sudo apt-get install mysql-server-5.6 mysql-client-5.6 libmysqlclient-dev
-
+    
+Run on every restart:
+   sudo systemctl enable mysql
+   sudo /lib/systemd/systemd-sysv-install enable mysql
+   
+Start mysql:
+   sudo systemctl start mysql 
 
 ### 4. Install Redis
 
